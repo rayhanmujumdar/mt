@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(50deg,#2c0a02,#0dca8b);
+    height: 150vh;
+  
+}
+.form-box{
+    width: 600px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    padding: 50px;
+}
+.form-box h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 42px;
+
+}
+.form-box form{
+    text-align: center;
+}
+.form-box form input{
+    width: 300px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.btn{
+background: linear-gradient(50deg,#2c0a02,#0dca8b);
+width: 328px !important;
+transition: 0.5s;
+font-size: 15px;
+color: white;
+cursor: pointer;
+
+}
+.btn:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+    background: black;
+}
+.form-box form input:focus{
+    outline: none;
+}
+.social-icon{
+  text-align: center;
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 15px; 
+}
+.social-icon ul li a i{
+    width: 60px;
+    height: 60px;
+    background: #0dca8b;
+    line-height: 60px;
+    border-radius: 100%;
+    font-size: 30px;
+    transition: 0.5s; 
+    color: white;
+}
+.social-icon ul li a i:hover{
+    transform: scale(0.8);
+    transition: 0.5s;
+    color: black;
+}
